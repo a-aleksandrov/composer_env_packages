@@ -1,0 +1,15 @@
+{
+  "name": "pmg/composer_env_packages",
+  "type": "composer-plugin",
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PMG\\Composer\\": "src"
+    }
+  },
+  "extra": {
+    "class": "PMG\\Composer\\ComposerEnvPackages"
+  }
+}
