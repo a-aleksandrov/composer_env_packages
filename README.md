@@ -25,7 +25,7 @@ Settings example:
         "check-git-env": false,
         "ask-question": true,
         "git-env": {
-            "dev": "composer.develop.json",
+            "develop": "composer.develop.json",
             "master": "composer.master.json"
         },
         "host-env-map": {
